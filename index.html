@@ -1,15 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Siete y Media</title>
   </head>
   <body>
-    <div id="app">
-      <h1>TypeScript Sandbox</h1>
+    <div id="tablero">
+      <h1 id="titulo">JUEGA AL 7&1/2</h1>
+      <p id="subtitulo">Pide carta sin pasarte</p>
+      <div id="reglas">
+        <span class="icono-info">📖</span>
+        <div class="texto-reglas">
+          Tu objetivo es sumar 7.5 sin pasarte. <br />
+          <strong>1–7 = su valor</strong>, <strong>10–12 = 0.5 puntos</strong>. <br />
+          Si te pasas, pierdes. ¡Suerte!
+        </div>
+      </div>
+      <div id="marcadorMonedas">💰 Monedas: 0</div>
+      
+    
+      <div id="mazo">
+        <img
+          src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/cartas/back.jpg"
+          alt="Mazo"
+          style="width: 80px; border-radius: 5px;"
+        />
+      </div>
+    
+      <div id="zona-cartas">
+        <img id="carta" src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/cartas/back.jpg" alt="Carta" />
+      </div>
+    
+      <div id="info">
+        <div class="marcador-horizontal">
+          <div id="puntuacion">Puntuación: 0</div>
+        </div>
+        <div id="valorCarta">+0</div>
+        <div id="mensaje"></div>
+        <div class="botones">
+          <button id="pedirCarta">Pedir carta</button>
+          <button id="mePlanto">Me planto</button>
+          <button id="nuevaJugada" style="display: none;">Nueva jugada</button>
+          <button id="terminarPartida" style="display: none;">Terminar partida</button>
+          <button id="verQueHabriaPasado" style="display: none;">¿Qué habría pasado?</button>
+
+        </div>
+        
+      </div>      
+      </div>
     </div>
+    
     <script type="module" src="/src/main.ts"></script>
+
   </body>
 </html>
+
