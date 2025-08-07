@@ -1,5 +1,5 @@
 # Ejercicio 05 - Condicionales
-# Juego de las Siete y Media 
+## Juego de las Siete y Media 
 
 Este proyecto desarrolla una aplicación web en TypeScript que simule el juego de cartas "Siete y Media" adaptado para un solo jugador. El objetivo es alcanzar una puntuación lo más cercana posible a 7,5 puntos sin pasarse. 
 Además, debe tener opciones para pedir carta, plantarse, mostrar el resultado, reiniciar el juego, y opcionalmente ver qué habría pasado si seguías pidiendo.
@@ -105,7 +105,7 @@ if (totalHipotetico > 7.5) {
 
 ##  Extras incluidos
 
-### ✅ Monedero virtual
+### Monedero virtual
 - El jugador gana monedas si se planta sin pasarse.
 - Se muestra en `#marcadorMonedas`.
 
