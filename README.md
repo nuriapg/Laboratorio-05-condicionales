@@ -31,7 +31,7 @@ Este laboratorio se centra en **el uso de condicionales (`if`, `else if`, `else`
 ###  Acción: Me planto
 <img src="assets/me-planto.png" width="350"/>
 
-###  Situación: “Qué habrías pasado”
+###  Situación: “Qué habría pasado”
 <img src="assets/que-habria-pasado.png" width="350"/>
 
 ---
