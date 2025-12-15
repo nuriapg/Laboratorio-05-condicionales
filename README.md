@@ -22,6 +22,18 @@ Este laboratorio se centra en **el uso de condicionales (`if`, `else if`, `else`
 - Puedes plantarte en cualquier momento.
 
 ---
+##  Vista previa del juego
+
+###  Pantalla inicial
+<img src="assets/juego-inicio.png" width="350"/>
+
+###  Situación: “Te habrías pasado”
+<img src="assets/que-habria-pasado.png" width="350"/>
+
+###  Acción: Me planto
+<img src="assets/me-planto.png" width="350"/>
+
+---
 
 ##  Estructura del proyecto
 
